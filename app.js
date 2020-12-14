@@ -11,6 +11,14 @@ app.use('/support', (req, res) => {
   res.send('Hello SUPPORT!');
 });
 
+app.use('/auth', (req, res) => {
+  res.send('Hello AUTH!');
+});
+
+app.use('/page', (req, res) => {
+  res.send('Hello PAGE!');
+});
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
