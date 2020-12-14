@@ -15,6 +15,10 @@ app.use('/auth', (req, res) => {
   res.send('Hello AUTH!');
 });
 
+app.use('/page', (req, res) => {
+  res.send('Hello PAGE!');
+});
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
