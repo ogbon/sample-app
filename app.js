@@ -19,6 +19,10 @@ app.use('/page', (req, res) => {
   res.send('Hello PAGE!');
 });
 
+app.use('/rose', (req, res) => {
+  res.send('Hello ROSE!');
+});
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
