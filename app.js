@@ -7,6 +7,9 @@ app.use('/api', (req, res) => {
   res.send('Hello API!');
 });
 
+app.use('/support', (req, res) => {
+  res.send('Hello SUPPORT!');
+});
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
